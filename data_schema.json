@@ -1,0 +1,24 @@
+{
+  "training_data": {
+    "fields": {
+      "conversation_id": "string",
+      "messages": "array[object]",
+      "metadata": "object"
+    }
+  },
+  "conversation_history": {
+    "fields": {
+      "conversation_id": "string",
+      "messages": "array[object]",
+      "timestamp": "date"
+    }
+  },
+  "model_versions": {
+    "fields": {
+      "model_name": "string",
+      "version": "string",
+      "training_params": "object",
+      "performance": "object"
+    }
+  }
+}

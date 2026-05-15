@@ -1,0 +1,24 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "84f74380-c537-4b09-9f9f-7e60ccc23ad1",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1774673793865"
+        }
+      },
+      "favorite": {
+        "name": "vector-search.dp5dhho.mongodb.net"
+      },
+      "savedConnectionType": "favorite",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://mongodb@vector-search.mkmihsf.mongodb.net/",
+        "oidc": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,1318 @@
+[{
+  "_id": {
+    "$oid": "69c7cfd01d9017f77731c4bb"
+  },
+  "architectures": [
+    "Qwen2ForCausalLM"
+  ],
+  "attention_dropout": 0,
+  "bos_token_id": 151643,
+  "eos_token_id": 151643,
+  "hidden_act": "silu",
+  "hidden_size": 1536,
+  "initializer_range": 0.02,
+  "intermediate_size": 8960,
+  "max_position_embeddings": 131072,
+  "max_window_layers": 21,
+  "model_type": "qwen2",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 28,
+  "num_key_value_heads": 2,
+  "rms_norm_eps": 0.000001,
+  "rope_theta": 10000,
+  "sliding_window": 4096,
+  "tie_word_embeddings": false,
+  "torch_dtype": "bfloat16",
+  "transformers_version": "4.44.0",
+  "use_cache": true,
+  "use_mrope": false,
+  "use_sliding_window": false,
+  "vocab_size": 151936
+},
+{
+  "_id": {
+    "$oid": "69c7cfdc1d9017f77731c4bc"
+  },
+  "_from_model_config": true,
+  "bos_token_id": 151646,
+  "eos_token_id": 151643,
+  "do_sample": true,
+  "temperature": 0.6,
+  "top_p": 0.95,
+  "transformers_version": "4.39.3"
+},
+{
+  "_id": {
+    "$oid": "69c7d02f1d9017f77731c4be"
+  },
+  "text": "你是一个有用的助手，请回答用户的问题：Hello! I am a year 4 ICT student. Recently, I needed to prepare for examinations in many subjects, so I feel stressed out.",
+  "type": "StringPromptValue"
+},
+{
+  "_id": {
+    "$oid": "69c7d03f1d9017f77731c4c0"
+  },
+  "generations": [
+    [
+      {
+        "text": "Hello! It's completely normal to feel stressed when preparing for multiple exams, especially in a demanding field like ICT. Here are a few suggestions that might help you manage your stress and study more effectively:\n\n1. **Create a Study Schedule**: Break down your subjects into manageable chunks and allocate specific times for each. This can help you avoid last-minute cramming and make your study sessions more focused.\n\n2. **Prioritize Tasks**: Identify which subjects or topics need more attention and tackle those first. This can help you feel more in control and reduce anxiety.\n\n3. **Take Regular Breaks**: Use techniques like the Pomodoro method (study for 25 minutes, then take a 5-minute break) to maintain focus and prevent burnout.\n\n4. **Stay Organized**: Keep your notes, materials, and resources well-organized. This can save you time and reduce stress when you need to review specific topics.\n\n5. **Practice Self-Care**: Make sure to get enough sleep, eat well, and engage in physical activity. Even a short walk or some stretching can help clear your mind.\n\n6. **Seek Support**: Don’t hesitate to reach out to classmates, teachers, or friends if you’re struggling with a particular topic. Sometimes discussing concepts with others can make them easier to understand.\n\n7. **Mindfulness and Relaxation**: Techniques like deep breathing, meditation, or even listening to calming music can help reduce stress levels.\n\nRemember, it's okay to feel overwhelmed, but taking small, consistent steps can make a big difference. You've got this! Good luck with your exams! 😊",
+        "generation_info": {
+          "finish_reason": "stop",
+          "model_name": "deepseek-chat",
+          "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache_new_kvcache"
+        },
+        "type": "ChatGenerationChunk",
+        "message": {
+          "content": "Hello! It's completely normal to feel stressed when preparing for multiple exams, especially in a demanding field like ICT. Here are a few suggestions that might help you manage your stress and study more effectively:\n\n1. **Create a Study Schedule**: Break down your subjects into manageable chunks and allocate specific times for each. This can help you avoid last-minute cramming and make your study sessions more focused.\n\n2. **Prioritize Tasks**: Identify which subjects or topics need more attention and tackle those first. This can help you feel more in control and reduce anxiety.\n\n3. **Take Regular Breaks**: Use techniques like the Pomodoro method (study for 25 minutes, then take a 5-minute break) to maintain focus and prevent burnout.\n\n4. **Stay Organized**: Keep your notes, materials, and resources well-organized. This can save you time and reduce stress when you need to review specific topics.\n\n5. **Practice Self-Care**: Make sure to get enough sleep, eat well, and engage in physical activity. Even a short walk or some stretching can help clear your mind.\n\n6. **Seek Support**: Don’t hesitate to reach out to classmates, teachers, or friends if you’re struggling with a particular topic. Sometimes discussing concepts with others can make them easier to understand.\n\n7. **Mindfulness and Relaxation**: Techniques like deep breathing, meditation, or even listening to calming music can help reduce stress levels.\n\nRemember, it's okay to feel overwhelmed, but taking small, consistent steps can make a big difference. You've got this! Good luck with your exams! 😊",
+          "additional_kwargs": {},
+          "response_metadata": {
+            "model_provider": "openai",
+            "finish_reason": "stop",
+            "model_name": "deepseek-chat",
+            "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache_new_kvcache"
+          },
+          "type": "AIMessageChunk",
+          "name": null,
+          "id": "lc_run--019d347e-4c39-7750-95fc-b47c7e0c9cf7",
+          "tool_calls": [],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 43,
+            "output_tokens": 325,
+            "total_tokens": 368,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "output_token_details": {}
+          },
+          "tool_call_chunks": [],
+          "chunk_position": null
+        }
+      }
+    ]
+  ],
+  "llm_output": null,
+  "run": null,
+  "type": "LLMResult"
+},
+{
+  "_id": {
+    "$oid": "69c7d0671d9017f77731c4c2"
+  },
+  "output": "Hello! It's completely normal to feel stressed when preparing for multiple exams, especially in a demanding field like ICT. Here are a few suggestions that might help you manage your stress and study more effectively:\n\n1. **Create a Study Schedule**: Break down your subjects into manageable chunks and allocate specific times for each. This can help you avoid last-minute cramming and make your study sessions more focused.\n\n2. **Prioritize Tasks**: Identify which subjects or topics need more attention and tackle those first. This can help you feel more in control and reduce anxiety.\n\n3. **Take Regular Breaks**: Use techniques like the Pomodoro method (study for 25 minutes, then take a 5-minute break) to maintain focus and prevent burnout.\n\n4. **Stay Organized**: Keep your notes, materials, and resources well-organized. This can save you time and reduce stress when you need to review specific topics.\n\n5. **Practice Self-Care**: Make sure to get enough sleep, eat well, and engage in physical activity. Even a short walk or some stretching can help clear your mind.\n\n6. **Seek Support**: Don’t hesitate to reach out to classmates, teachers, or friends if you’re struggling with a particular topic. Sometimes discussing concepts with others can make them easier to understand.\n\n7. **Mindfulness and Relaxation**: Techniques like deep breathing, meditation, or even listening to calming music can help reduce stress levels.\n\nRemember, it's okay to feel overwhelmed, but taking small, consistent steps can make a big difference. You've got this! Good luck with your exams! 😊"
+},
+{
+  "_id": {
+    "$oid": "69c7d1121d9017f77731c4c4"
+  },
+  "text": "你是一个有用的助手，请回答用户的问题：您好！我是一名四年級的資訊與通訊科技專業的學生。最近我需要準備很多科目的考試，所以我感到壓力很大。",
+  "type": "StringPromptValue"
+},
+{
+  "_id": {
+    "$oid": "69c7d1311d9017f77731c4c6"
+  },
+  "generations": [
+    [
+      {
+        "text": "同学你好！作为四年级的ICT专业学生，面对多科目考试感到压力是非常正常的，尤其是这个阶段课程往往更深入、项目也更复杂。你的感受很多人都经历过，重要的是找到适合自己的应对方式。以下是一些建议，希望能帮你更有序地度过这段时期：\n\n---\n\n### **1. 结构化复习策略**\n- **优先级排序**：列出所有考试科目，按“难度系数+复习进度”排序。对不熟悉或学分高的科目分配更多时间。\n- **时间分块法**：用番茄钟（25分钟专注+5分钟休息）分段复习，避免长时间疲劳。\n- **交叉复习**：每天安排2-3门科目切换学习，避免单一科目枯燥，同时促进知识关联（比如网络原理和编程中的通信模块可能有关联）。\n\n---\n\n### **2. ICT专业复习小技巧**\n- **理论科目**（如计算机网络、数据结构）：\n  - 用思维导图梳理协议分层、算法流程等框架。\n  - 尝试对同学讲解概念（费曼学习法），能讲明白才算真正掌握。\n- **实践科目**（如编程、数据库）：\n  - 动手写代码/写SQL比单纯看书更有效。可以找往年习题或开源小项目练手。\n  - 调试错误时，把遇到的报错和解决方案记录下来，考前快速回顾。\n- **工具辅助**：\n  - 用Anki等工具制作数字卡片记忆术语、命令。\n  - 画图工具（如Draw.io）可视化系统架构、数据流。\n\n---\n\n### **3. 压力管理**\n- **微小休息**：每复习1-2小时，起身走动、喝水、远眺。短暂脱离屏幕能恢复注意力。\n- **身体调节**：每天抽20分钟做轻度运动（快走、拉伸），睡眠尽量规律（熬夜会降低记忆效率）。\n- **社交支持**：和同学组队复习、互相提问，既能查漏补缺也能缓解孤独感。\n\n---\n\n### **4. 心态调整**\n- **接受不完美**：不需要每门课都追求完美，设定合理目标（如“掌握核心知识点”）。\n- **聚焦当下**：如果焦虑未来，可以问自己：“现在这1小时我能做什么？”把注意力拉回可控的行动上。\n- **自我激励**：完成每日计划后给自己小奖励（比如爱吃的零食、一集短剧），积累成就感。\n\n---\n\n### **5. 如果压力持续影响状态**\n- 可以尝试写“压力日记”，记录具体担忧（如“担心某科时间不够”），再对应列出能做的行动（如“今晚先攻破第三章重点”）。\n- 如果情绪持续低落或失眠，请务必联系学校心理咨询中心——寻求帮助是聪明的选择。\n\n---\n\n考试是学习过程的 checkpoint，不是终点。你过去三年多的积累已经为你打下了基础，现在需要的是**系统回顾+策略应对**。ICT领域知识迭代快，但核心逻辑是相通的，理顺框架比死记硬背更重要。\n\n加油！这段高强度的日子会过去，而你解决问题的能力会在这个过程中悄悄增长。如果需要更具体的某科复习建议，可以告诉我科目名称，我会尽力提供思路 🌱",
+        "generation_info": {
+          "finish_reason": "stop",
+          "model_name": "deepseek-chat",
+          "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache_new_kvcache"
+        },
+        "type": "ChatGenerationChunk",
+        "message": {
+          "content": "同学你好！作为四年级的ICT专业学生，面对多科目考试感到压力是非常正常的，尤其是这个阶段课程往往更深入、项目也更复杂。你的感受很多人都经历过，重要的是找到适合自己的应对方式。以下是一些建议，希望能帮你更有序地度过这段时期：\n\n---\n\n### **1. 结构化复习策略**\n- **优先级排序**：列出所有考试科目，按“难度系数+复习进度”排序。对不熟悉或学分高的科目分配更多时间。\n- **时间分块法**：用番茄钟（25分钟专注+5分钟休息）分段复习，避免长时间疲劳。\n- **交叉复习**：每天安排2-3门科目切换学习，避免单一科目枯燥，同时促进知识关联（比如网络原理和编程中的通信模块可能有关联）。\n\n---\n\n### **2. ICT专业复习小技巧**\n- **理论科目**（如计算机网络、数据结构）：\n  - 用思维导图梳理协议分层、算法流程等框架。\n  - 尝试对同学讲解概念（费曼学习法），能讲明白才算真正掌握。\n- **实践科目**（如编程、数据库）：\n  - 动手写代码/写SQL比单纯看书更有效。可以找往年习题或开源小项目练手。\n  - 调试错误时，把遇到的报错和解决方案记录下来，考前快速回顾。\n- **工具辅助**：\n  - 用Anki等工具制作数字卡片记忆术语、命令。\n  - 画图工具（如Draw.io）可视化系统架构、数据流。\n\n---\n\n### **3. 压力管理**\n- **微小休息**：每复习1-2小时，起身走动、喝水、远眺。短暂脱离屏幕能恢复注意力。\n- **身体调节**：每天抽20分钟做轻度运动（快走、拉伸），睡眠尽量规律（熬夜会降低记忆效率）。\n- **社交支持**：和同学组队复习、互相提问，既能查漏补缺也能缓解孤独感。\n\n---\n\n### **4. 心态调整**\n- **接受不完美**：不需要每门课都追求完美，设定合理目标（如“掌握核心知识点”）。\n- **聚焦当下**：如果焦虑未来，可以问自己：“现在这1小时我能做什么？”把注意力拉回可控的行动上。\n- **自我激励**：完成每日计划后给自己小奖励（比如爱吃的零食、一集短剧），积累成就感。\n\n---\n\n### **5. 如果压力持续影响状态**\n- 可以尝试写“压力日记”，记录具体担忧（如“担心某科时间不够”），再对应列出能做的行动（如“今晚先攻破第三章重点”）。\n- 如果情绪持续低落或失眠，请务必联系学校心理咨询中心——寻求帮助是聪明的选择。\n\n---\n\n考试是学习过程的 checkpoint，不是终点。你过去三年多的积累已经为你打下了基础，现在需要的是**系统回顾+策略应对**。ICT领域知识迭代快，但核心逻辑是相通的，理顺框架比死记硬背更重要。\n\n加油！这段高强度的日子会过去，而你解决问题的能力会在这个过程中悄悄增长。如果需要更具体的某科复习建议，可以告诉我科目名称，我会尽力提供思路 🌱",
+          "additional_kwargs": {},
+          "response_metadata": {
+            "model_provider": "openai",
+            "finish_reason": "stop",
+            "model_name": "deepseek-chat",
+            "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache_new_kvcache"
+          },
+          "type": "AIMessageChunk",
+          "name": null,
+          "id": "lc_run--019d3487-c38d-74c0-bdd9-f36488432d7c",
+          "tool_calls": [],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 41,
+            "output_tokens": 662,
+            "total_tokens": 703,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "output_token_details": {}
+          },
+          "tool_call_chunks": [],
+          "chunk_position": null
+        }
+      }
+    ]
+  ],
+  "llm_output": null,
+  "run": null,
+  "type": "LLMResult"
+},
+{
+  "_id": {
+    "$oid": "69c7d1571d9017f77731c4c8"
+  },
+  "output": "同学你好！作为四年级的ICT专业学生，面对多科目考试感到压力是非常正常的，尤其是这个阶段课程往往更深入、项目也更复杂。你的感受很多人都经历过，重要的是找到适合自己的应对方式。以下是一些建议，希望能帮你更有序地度过这段时期：\n\n---\n\n### **1. 结构化复习策略**\n- **优先级排序**：列出所有考试科目，按“难度系数+复习进度”排序。对不熟悉或学分高的科目分配更多时间。\n- **时间分块法**：用番茄钟（25分钟专注+5分钟休息）分段复习，避免长时间疲劳。\n- **交叉复习**：每天安排2-3门科目切换学习，避免单一科目枯燥，同时促进知识关联（比如网络原理和编程中的通信模块可能有关联）。\n\n---\n\n### **2. ICT专业复习小技巧**\n- **理论科目**（如计算机网络、数据结构）：\n  - 用思维导图梳理协议分层、算法流程等框架。\n  - 尝试对同学讲解概念（费曼学习法），能讲明白才算真正掌握。\n- **实践科目**（如编程、数据库）：\n  - 动手写代码/写SQL比单纯看书更有效。可以找往年习题或开源小项目练手。\n  - 调试错误时，把遇到的报错和解决方案记录下来，考前快速回顾。\n- **工具辅助**：\n  - 用Anki等工具制作数字卡片记忆术语、命令。\n  - 画图工具（如Draw.io）可视化系统架构、数据流。\n\n---\n\n### **3. 压力管理**\n- **微小休息**：每复习1-2小时，起身走动、喝水、远眺。短暂脱离屏幕能恢复注意力。\n- **身体调节**：每天抽20分钟做轻度运动（快走、拉伸），睡眠尽量规律（熬夜会降低记忆效率）。\n- **社交支持**：和同学组队复习、互相提问，既能查漏补缺也能缓解孤独感。\n\n---\n\n### **4. 心态调整**\n- **接受不完美**：不需要每门课都追求完美，设定合理目标（如“掌握核心知识点”）。\n- **聚焦当下**：如果焦虑未来，可以问自己：“现在这1小时我能做什么？”把注意力拉回可控的行动上。\n- **自我激励**：完成每日计划后给自己小奖励（比如爱吃的零食、一集短剧），积累成就感。\n\n---\n\n### **5. 如果压力持续影响状态**\n- 可以尝试写“压力日记”，记录具体担忧（如“担心某科时间不够”），再对应列出能做的行动（如“今晚先攻破第三章重点”）。\n- 如果情绪持续低落或失眠，请务必联系学校心理咨询中心——寻求帮助是聪明的选择。\n\n---\n\n考试是学习过程的 checkpoint，不是终点。你过去三年多的积累已经为你打下了基础，现在需要的是**系统回顾+策略应对**。ICT领域知识迭代快，但核心逻辑是相通的，理顺框架比死记硬背更重要。\n\n加油！这段高强度的日子会过去，而你解决问题的能力会在这个过程中悄悄增长。如果需要更具体的某科复习建议，可以告诉我科目名称，我会尽力提供思路 🌱"
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4c9"
+  },
+  "ID": 74,
+  "Type": "simple",
+  "SKU": "Huanhuan",
+  "Name": "Huanhuan歡歡",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Gentle, Calm</li>\r\\n \t<li>Description: Huanhuan is a round, doll-like figure with a gentle smile that brings a sense of security. She possesses the ability to soothe others and is well-suited to accompany students during stressful times, providing emotional support.</li>\r\\n \t<li><strong>性格特徵</strong>: 溫柔、平靜</li>\r\\n \t<li><strong>描述</strong>: 歡歉是一個圓潤的玩偶，總是帶著柔和的微笑，讓人感到安心。她擁有安撫他人的能力，適合在壓力大的時候陪伴學生，提供情感上的支持。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Gentle, Calm</li><li>Description: Huanhuan is a round, doll-like figure with a gentle smile that brings a sense of security. She possesses the ability to soothe others and is well-suited to accompany students during stressful times, providing emotional support.</li><li>性格特徵: 溫柔、平靜</li><li>描述: 歡歉是一個圓潤的玩偶，總是帶著柔和的微笑，讓人感到安心。她擁有安撫他人的能力，適合在壓力大的時候陪伴學生，提供情感上的支持。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/歡歡Huanhuan.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 4,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "356eac01",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "6ae27a48",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Gentle, Calm</span></li><li><span style=\"color: #0000ff;\">Description: Huanhuan is a round, doll-like figure with a gentle smile that brings a sense of security. She possesses the ability to soothe others and is well-suited to accompany students during stressful times, providing emotional support.</span></li><li><span style=\"color: #0000ff;\">性格特徵: 溫柔、平靜</span></li><li><span style=\"color: #0000ff;\">描述: 歡歉是一個圓潤的玩偶，總是帶著柔和的微笑，讓人感到安心。她擁有安撫他人的能力，適合在壓力大的時候陪伴學生，提供情感上的支持。</span></li></ul>",
+            "align": "left",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _elementor_element_cache": {
+    "timeout": 1774739252,
+    "value": {
+      "content": "<div class=\"elementor-element elementor-element-356eac01 e-flex e-con-boxed e-con e-parent\" data-id=\"356eac01\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"ccfa9c28b1fb67251e219a1e24b677d7\" data=\"eyJpZCI6IjZhZTI3YTQ4IiwiZWxUeXBlIjoid2lkZ2V0Iiwic2V0dGluZ3MiOnsiZWRpdG9yIjoiPHVsPjxsaT48c3BhbiBzdHlsZT1cImNvbG9yOiAjMDAwMGZmO1wiPlBlcnNvbmFsaXR5IFRyYWl0czogR2VudGxlLCBDYWxtPFwvc3Bhbj48XC9saT48bGk+PHNwYW4gc3R5bGU9XCJjb2xvcjogIzAwMDBmZjtcIj5EZXNjcmlwdGlvbjogSHVhbmh1YW4gaXMgYSByb3VuZCwgZG9sbC1saWtlIGZpZ3VyZSB3aXRoIGEgZ2VudGxlIHNtaWxlIHRoYXQgYnJpbmdzIGEgc2Vuc2Ugb2Ygc2VjdXJpdHkuIFNoZSBwb3NzZXNzZXMgdGhlIGFiaWxpdHkgdG8gc29vdGhlIG90aGVycyBhbmQgaXMgd2VsbC1zdWl0ZWQgdG8gYWNjb21wYW55IHN0dWRlbnRzIGR1cmluZyBzdHJlc3NmdWwgdGltZXMsIHByb3ZpZGluZyBlbW90aW9uYWwgc3VwcG9ydC48XC9zcGFuPjxcL2xpPjxsaT48c3BhbiBzdHlsZT1cImNvbG9yOiAjMDAwMGZmO1wiPlx1NjAyN1x1NjgzY1x1NzI3OVx1NWZiNTogXHU2ZWFiXHU2N2Q0XHUzMDAxXHU1ZTczXHU5NzVjPFwvc3Bhbj48XC9saT48bGk+PHNwYW4gc3R5bGU9XCJjb2xvcjogIzAwMDBmZjtcIj5cdTYzY2ZcdThmZjA6IFx1NmI2MVx1NmI0OVx1NjYyZlx1NGUwMFx1NTAwYlx1NTcxM1x1NmY2NFx1NzY4NFx1NzNhOVx1NTA3Nlx1ZmYwY1x1N2UzZFx1NjYyZlx1NWUzNlx1ODQ1N1x1NjdkNFx1NTQ4Y1x1NzY4NFx1NWZhZVx1N2IxMVx1ZmYwY1x1OGI5M1x1NGViYVx1NjExZlx1NTIzMFx1NWI4OVx1NWZjM1x1MzAwMlx1NTk3OVx1NjRjMVx1NjcwOVx1NWI4OVx1NjRhYlx1NGVkNlx1NGViYVx1NzY4NFx1ODBmZFx1NTI5Ylx1ZmYwY1x1OTA2OVx1NTQwOFx1NTcyOFx1NThkM1x1NTI5Ylx1NTkyN1x1NzY4NFx1NjY0Mlx1NTAxOVx1OTY2YVx1NGYzNFx1NWI3OFx1NzUxZlx1ZmYwY1x1NjNkMFx1NGY5Ylx1NjBjNVx1NjExZlx1NGUwYVx1NzY4NFx1NjUyZlx1NjMwMVx1MzAwMjxcL3NwYW4+PFwvbGk+PFwvdWw+IiwiYWxpZ24iOiJsZWZ0IiwidHlwb2dyYXBoeV90eXBvZ3JhcGh5IjoiY3VzdG9tIiwidHlwb2dyYXBoeV9mb250X2ZhbWlseSI6IlBvcHBpbnMiLCJ0eXBvZ3JhcGh5X2ZvbnRfc2l6ZSI6eyJ1bml0IjoicHgiLCJzaXplIjozMCwic2l6ZXMiOltdfSwidHlwb2dyYXBoeV9mb250X3dlaWdodCI6IjMwMCIsInR5cG9ncmFwaHlfdGV4dF90cmFuc2Zvcm0iOiJub25lIiwidHlwb2dyYXBoeV9mb250X3N0eWxlIjoibm9ybWFsIiwidHlwb2dyYXBoeV90ZXh0X2RlY29yYXRpb24iOiJub25lIiwidHlwb2dyYXBoeV9saW5lX2hlaWdodCI6eyJ1bml0IjoicHgiLCJzaXplIjo0MCwic2l6ZXMiOltdfSwidGV4dF9zaGFkb3dfdGV4dF9zaGFkb3dfdHlwZSI6InllcyIsInRleHRfc2hhZG93X3RleHRfc2hhZG93Ijp7Imhvcml6b250YWwiOjAsInZlcnRpY2FsIjowLCJibHVyIjowLCJjb2xvciI6InJnYmEoMCwwLDAsMC4zKSJ9fSwiZWxlbWVudHMiOltdLCJ3aWRnZXRUeXBlIjoidGV4dC1lZGl0b3IifQ==\"]\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "scripts": [],
+      "styles": []
+    }
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4ca"
+  },
+  "ID": 75,
+  "Type": "simple",
+  "SKU": "Xinxin",
+  "Name": "Xinxin欣欣",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Rational, Empathetic</li>\r\\n \t<li>Description: Xin Xin's expression is thoughtful, and her comfortable sweater symbolizes wisdom and understanding. She is a good listener, able to understand students' troubles, and offer practical advice.</li>\r\\n \t<li><strong>性格特徵</strong>: 理智、善解人意</li>\r\\n \t<li><strong>描述</strong>: 欣欣的表情充滿思考，穿著舒適的毛衣，象徵著智慧與理解。她擅長傾聽，能夠理解學生的煩惱，並提供實用的建議。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Rational, Empathetic</li><li>Description: Xin Xin's expression is thoughtful, and her comfortable sweater symbolizes wisdom and understanding. She is a good listener, able to understand students' troubles, and offer practical advice.</li><li>性格特徵: 理智、善解人意</li><li>描述: 欣欣的表情充滿思考，穿著舒適的毛衣，象徵著智慧與理解。她擅長傾聽，能夠理解學生的煩惱，並提供實用的建議。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/欣欣Xinxin.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 5,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "7f0feaa",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid",
+        "__globals__": {
+          "background_color": ""
+        }
+      },
+      "elements": [
+        {
+          "id": "632bf9cb",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Rational, Empathetic</span></li><li><span style=\"color: #0000ff;\">Description: Xin Xin's expression is thoughtful, and her comfortable sweater symbolizes wisdom and understanding. She is a good listener, able to understand students' troubles, and offer practical advice.</span></li><li><span style=\"color: #0000ff;\">性格特徵: 理智、善解人意</span></li><li><span style=\"color: #0000ff;\">描述: 欣欣的表情充滿思考，穿著舒適的毛衣，象徵著智慧與理解。她擅長傾聽，能夠理解學生的煩惱，並提供實用的建議。</span></li></ul>",
+            "align": "left",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_color": "#DFC8FE",
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _elementor_element_cache": {
+    "timeout": 1774653986,
+    "value": {
+      "content": "<div class=\"elementor-element elementor-element-7f0feaa e-flex e-con-boxed e-con e-parent\" data-id=\"7f0feaa\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;gradient&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t[elementor-element k=\"ccfa9c28b1fb67251e219a1e24b677d7\" data=\"eyJpZCI6IjYzMmJmOWNiIiwiZWxUeXBlIjoid2lkZ2V0Iiwic2V0dGluZ3MiOnsiZWRpdG9yIjoiPHVsPjxsaT48c3BhbiBzdHlsZT1cImNvbG9yOiAjMDAwMGZmO1wiPlBlcnNvbmFsaXR5IFRyYWl0czogUmF0aW9uYWwsIEVtcGF0aGV0aWM8XC9zcGFuPjxcL2xpPjxsaT48c3BhbiBzdHlsZT1cImNvbG9yOiAjMDAwMGZmO1wiPkRlc2NyaXB0aW9uOiBYaW4gWGluJ3MgZXhwcmVzc2lvbiBpcyB0aG91Z2h0ZnVsLCBhbmQgaGVyIGNvbWZvcnRhYmxlIHN3ZWF0ZXIgc3ltYm9saXplcyB3aXNkb20gYW5kIHVuZGVyc3RhbmRpbmcuIFNoZSBpcyBhIGdvb2QgbGlzdGVuZXIsIGFibGUgdG8gdW5kZXJzdGFuZCBzdHVkZW50cycgdHJvdWJsZXMsIGFuZCBvZmZlciBwcmFjdGljYWwgYWR2aWNlLjxcL3NwYW4+PFwvbGk+PGxpPjxzcGFuIHN0eWxlPVwiY29sb3I6ICMwMDAwZmY7XCI+XHU2MDI3XHU2ODNjXHU3Mjc5XHU1ZmI1OiBcdTc0MDZcdTY2N2FcdTMwMDFcdTU1ODRcdTg5ZTNcdTRlYmFcdTYxMGY8XC9zcGFuPjxcL2xpPjxsaT48c3BhbiBzdHlsZT1cImNvbG9yOiAjMDAwMGZmO1wiPlx1NjNjZlx1OGZmMDogXHU2YjIzXHU2YjIzXHU3Njg0XHU4ODY4XHU2MGM1XHU1MTQ1XHU2ZWZmXHU2MDFkXHU4MDAzXHVmZjBjXHU3YTdmXHU4NDU3XHU4MjEyXHU5MDY5XHU3Njg0XHU2YmRiXHU4ODYzXHVmZjBjXHU4YzYxXHU1ZmI1XHU4NDU3XHU2NjdhXHU2MTY3XHU4MjA3XHU3NDA2XHU4OWUzXHUzMDAyXHU1OTc5XHU2NGM1XHU5NTc3XHU1MGJlXHU4MDdkXHVmZjBjXHU4MGZkXHU1OTIwXHU3NDA2XHU4OWUzXHU1Yjc4XHU3NTFmXHU3Njg0XHU3MTY5XHU2MGYxXHVmZjBjXHU0ZTI2XHU2M2QwXHU0ZjliXHU1YmU2XHU3NTI4XHU3Njg0XHU1ZWZhXHU4YjcwXHUzMDAyPFwvc3Bhbj48XC9saT48XC91bD4iLCJhbGlnbiI6ImxlZnQiLCJ0eXBvZ3JhcGh5X3R5cG9ncmFwaHkiOiJjdXN0b20iLCJ0eXBvZ3JhcGh5X2ZvbnRfZmFtaWx5IjoiUG9wcGlucyIsInR5cG9ncmFwaHlfZm9udF9zaXplIjp7InVuaXQiOiJweCIsInNpemUiOjMwLCJzaXplcyI6W119LCJ0eXBvZ3JhcGh5X2ZvbnRfd2VpZ2h0IjoiMzAwIiwidHlwb2dyYXBoeV90ZXh0X3RyYW5zZm9ybSI6Im5vbmUiLCJ0eXBvZ3JhcGh5X2ZvbnRfc3R5bGUiOiJub3JtYWwiLCJ0eXBvZ3JhcGh5X3RleHRfZGVjb3JhdGlvbiI6Im5vbmUiLCJ0eXBvZ3JhcGh5X2xpbmVfaGVpZ2h0Ijp7InVuaXQiOiJweCIsInNpemUiOjQwLCJzaXplcyI6W119LCJ0ZXh0X2NvbG9yIjoiI0RGQzhGRSIsInRleHRfc2hhZG93X3RleHRfc2hhZG93X3R5cGUiOiJ5ZXMiLCJ0ZXh0X3NoYWRvd190ZXh0X3NoYWRvdyI6eyJob3Jpem9udGFsIjowLCJ2ZXJ0aWNhbCI6MCwiYmx1ciI6MCwiY29sb3IiOiJyZ2JhKDAsMCwwLDAuMykifX0sImVsZW1lbnRzIjpbXSwid2lkZ2V0VHlwZSI6InRleHQtZWRpdG9yIn0=\"]\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "scripts": [],
+      "styles": []
+    }
+  },
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4cb"
+  },
+  "ID": 80,
+  "Type": "simple",
+  "SKU": "An'an",
+  "Name": "An'an安安",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Friendly, Positive</li>\r\\n \t<li>Description: An'an has big, friendly eyes and bright eyes that always bring positive energy. She enjoys encouraging others, helping students build confidence, and maintaining a positive attitude in the face of difficulties.</li>\r\\n \t<li><strong>性格特徵</strong>: 友善、積極</li>\r\\n \t<li><strong>描述</strong>: 安安擁有大大的友善眼睛和亮麗的顏色，總是能帶來正能量。她喜歡鼓勵他人，幫助學生找到自信，讓他們在困難中保持積極的心態。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Friendly, Positive</li><li>Description: An'an has big, friendly eyes and bright eyes that always bring positive energy. She enjoys encouraging others, helping students build confidence, and maintaining a positive attitude in the face of difficulties.</li><li>性格特徵: 友善、積極</li><li>描述: 安安擁有大大的友善眼睛和亮麗的顏色，總是能帶來正能量。她喜歡鼓勵他人，幫助學生找到自信，讓他們在困難中保持積極的心態。</li><li> </li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/安安Anan.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 3,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "33a0944c",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "66eeedef",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Friendly, Positive</span></li><li><span style=\"color: #0000ff;\">Description: An'an has big, friendly eyes and bright eyes that always bring positive energy. She enjoys encouraging others, helping students build confidence, and maintaining a positive attitude in the face of difficulties.</span></li><li><span style=\"color: #0000ff;\">性格特徵: 友善、積極</span></li><li><span style=\"color: #0000ff;\">描述: 安安擁有大大的友善眼睛和亮麗的顏色，總是能帶來正能量。她喜歡鼓勵他人，幫助學生找到自信，讓他們在困難中保持積極的心態。</span></li><li> </li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4cc"
+  },
+  "ID": 83,
+  "Type": "simple",
+  "SKU": "Yingying",
+  "Name": "Yingying盈盈",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Lively, Fun</li>\r\\n \t<li>Description: Yingying is a cheerful doll whose designs are full of fun and always bring laughter. She enjoys playing games and doing fun activities, helping students relax and enjoy the little pleasures in life.</li>\r\\n \t<li><strong>性格特徵</strong>: 活潑、有趣</li>\r\\n \t<li><strong>描述</strong>: 盈盈是一個充滿快樂的玩偶，她的設計充滿趣味，總是能帶來笑聲。她喜歡玩遊戲和做有趣的活動，幫助學生放鬆心情，享受生活中的小樂趣。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Lively, Fun</li><li>Description: Yingying is a cheerful doll whose designs are full of fun and always bring laughter. She enjoys playing games and doing fun activities, helping students relax and enjoy the little pleasures in life.</li><li>性格特徵: 活潑、有趣</li><li>描述: 盈盈是一個充滿快樂的玩偶，她的設計充滿趣味，總是能帶來笑聲。她喜歡玩遊戲和做有趣的活動，幫助學生放鬆心情，享受生活中的小樂趣。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/盈盈Yingying.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 3,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "592958f7",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "51e0088c",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Lively, Fun</span></li><li><span style=\"color: #0000ff;\">Description: Yingying is a cheerful doll whose designs are full of fun and always bring laughter. She enjoys playing games and doing fun activities, helping students relax and enjoy the little </span><span style=\"color: #0000ff;\">pleasures in life.</span></li><li><span style=\"color: #0000ff;\">性格特徵: 活潑、有趣</span></li><li><span style=\"color: #0000ff;\">描述: 盈盈是一個充滿快樂的玩偶，她的設計充滿趣味，總是能帶來笑聲。她喜歡玩遊戲和做有趣的活動，幫助學生放鬆心情，享受生活中的小樂趣。</span></li></ul>",
+            "align": "left",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "#000000"
+            },
+            "_element_width": "auto"
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4cd"
+  },
+  "ID": 85,
+  "Type": "simple",
+  "SKU": "Lele",
+  "Name": "Lele樂樂",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Lele is a vibrant and optimistic character. She always has a smile on her face, loves telling jokes and sharing happy stories, and can make people feel relaxed and cheerful.</li>\r\\n \t<li>Hobbies: She enjoys singing and dancing and often invites children to participate in fun activities.</li>\r\\n \t<li><strong>性格特點</strong>: 樂樂是一個充滿活力和樂觀的角色。她總是帶著微笑，喜歡講笑話和分享快樂的故事，能夠讓人感到輕鬆愉快。</li>\r\\n \t<li><strong>愛好</strong>: 她喜歡唱歌和跳舞，常常邀請孩子們一起參加有趣的活動。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Lele is a vibrant and optimistic character. She always has a smile on her face, loves telling jokes and sharing happy stories, and can make people feel relaxed and cheerful.</li><li>Hobbies: She enjoys singing and dancing and often invites children to participate in fun activities.</li><li>性格特點: 樂樂是一個充滿活力和樂觀的角色。她總是帶著微笑，喜歡講笑話和分享快樂的故事，能夠讓人感到輕鬆愉快。</li><li>愛好: 她喜歡唱歌和跳舞，常常邀請孩子們一起參加有趣的活動。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/樂樂Lele.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 3,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "6270817e",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "17fed1cb",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Lele is a vibrant and optimistic character. She always has a smile on her face, loves telling jokes and sharing happy stories, and can make people feel relaxed and cheerful.</span></li><li><span style=\"color: #0000ff;\">Hobbies: She enjoys singing and dancing and often invites children to participate in fun activities.</span></li><li><span style=\"color: #0000ff;\">性格特點: 樂樂是一個充滿活力和樂觀的角色。她總是帶著微笑，喜歡講笑話和分享快樂的故事，能夠讓人感到輕鬆愉快。</span></li><li><span style=\"color: #0000ff;\">愛好: 她喜歡唱歌和跳舞，常常邀請孩子們一起參加有趣的活動。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4ce"
+  },
+  "ID": 87,
+  "Type": "simple",
+  "SKU": "Shishi",
+  "Name": "Shishi詩詩",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Shishi is a quiet and sensitive character, skilled at listening and understanding others' feelings. She always comforts her friends with warm words, making them feel at ease.\r\\nHobbies: She enjoys reading and writing poetry, often sharing beautiful stories and poems with children.</li>\r\\n \t<li><strong>性格特點</strong>: 詩詩是一個文靜而敏感的角色，擅長傾聽和理解他人的感受。她總是能夠用溫暖的話語安慰朋友，讓人感到安心。</li>\r\\n \t<li><strong>愛好</strong>: 她喜歡閱讀和寫詩，經常與孩子們分享美麗的故事和詩篇。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Shishi is a quiet and sensitive character, skilled at listening and understanding others' feelings. She always comforts her friends with warm words, making them feel at ease.</li><li>Hobbies: She enjoys reading and writing poetry, often sharing beautiful stories and poems with children.</li><li>性格特點: 詩詩是一個文靜而敏感的角色，擅長傾聽和理解他人的感受。她總是能夠用溫暖的話語安慰朋友，讓人感到安心。</li><li>愛好: 她喜歡閱讀和寫詩，經常與孩子們分享美麗的故事和詩篇。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/詩詩Shishi.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 3,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "346f5810",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "2a3075df",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Shishi is a quiet and sensitive character, skilled at listening and understanding others' feelings. She always comforts her friends with warm words, making them feel at ease.</span></li><li><span style=\"color: #0000ff;\">Hobbies: She enjoys reading and writing poetry, often sharing beautiful stories and poems with children.</span></li><li><span style=\"color: #0000ff;\">性格特點: 詩詩是一個文靜而敏感的角色，擅長傾聽和理解他人的感受。她總是能夠用溫暖的話語安慰朋友，讓人感到安心。</span></li><li><span style=\"color: #0000ff;\">愛好: 她喜歡閱讀和寫詩，經常與孩子們分享美麗的故事和詩篇。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            },
+            "_element_width": "auto"
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-09T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4cf"
+  },
+  "ID": 92,
+  "Type": "simple, downloadable, virtual",
+  "SKU": "Qingqing",
+  "Name": "Qingqing晴晴",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Qingqing is an imaginative and creative character who loves drawing and crafts. She encourages children to express their thoughts and feelings.</li>\r\\n \t<li>Hobbies: She enjoys creating and designing, often making crafts with children, allowing everyone to showcase their artistic talents.</li>\r\\n \t<li><strong>性格特點</strong>: 晴晴是一個充滿想像力和創造力的角色，喜歡畫畫和手工藝。她鼓勵孩子們表達自己的想法和情感。</li>\r\\n \t<li><strong>愛好</strong>: 她喜歡創作和設計，經常與孩子們一起做手工藝品，讓每個人都能展現自己的藝術才華。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Qingqing is an imaginative and creative character who loves drawing and crafts. She encourages children to express their thoughts and feelings.</li><li>Hobbies: She enjoys creating and designing, often making crafts with children, allowing everyone to showcase their artistic talents.</li><li>性格特點: 晴晴是一個充滿想像力和創造力的角色，喜歡畫畫和手工藝。她鼓勵孩子們表達自己的想法和情感。</li><li>愛好: 她喜歡創作和設計，經常與孩子們一起做手工藝品，讓每個人都能展現自己的藝術才華。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/晴晴Qingqing.jpg",
+  "Download limit": -1,
+  "Download expiry days": -1,
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 2,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "34a66eca",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "69ed586b",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Qingqing is an imaginative and creative character who loves drawing and crafts. She encourages children to express their thoughts and feelings.</span></li><li><span style=\"color: #0000ff;\">Hobbies: She enjoys creating and designing, often making crafts with children, allowing everyone to showcase their artistic talents.</span></li><li><span style=\"color: #0000ff;\">性格特點: 晴晴是一個充滿想像力和創造力的角色，喜歡畫畫和手工藝。她鼓勵孩子們表達自己的想法和情感。</span></li><li><span style=\"color: #0000ff;\">愛好: 她喜歡創作和設計，經常與孩子們一起做手工藝品，讓每個人都能展現自己的藝術才華。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no"
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4d0"
+  },
+  "ID": 94,
+  "Type": "simple",
+  "SKU": "Mimi",
+  "Name": "Mimi米米",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Mimi is a gentle and caring character who is always willing to listen to children's feelings, offering comfort and support.</li>\r\\n \t<li>米米是一個溫柔而關懷的角色，她總是願意傾聽孩子的心聲，給予安慰和支持。</li>\r\\n</ul>",
+  "Description": "<ul><li>Mimi is a gentle and caring character who is always willing to listen to children's feelings, offering comfort and support.</li><li>米米是一個溫柔而關懷的角色，她總是願意傾聽孩子的心聲，給予安慰和支持。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/米米Mimi-1.jpeg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 3,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "3d66ea6a",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "3a0c1779",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Mimi is a gentle and caring character who is always willing to listen to children's feelings, offering comfort and support.</span></li><li><span style=\"color: #0000ff;\">米米是一個溫柔而關懷的角色，她總是願意傾聽孩子的心聲，給予安慰和支持。</span></li></ul>",
+            "align": "left",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4d1"
+  },
+  "ID": 96,
+  "Type": "simple",
+  "SKU": "JunJun",
+  "Name": "JunJun駿駿",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Jun-Jun is an energetic and curious character who loves to explore new things, encouraging children to face challenges bravely.</li>\r\\n \t<li>駿駿是一個充滿活力和好奇心的角色，喜歡探索新事物，鼓勵孩子們勇敢面對挑戰。</li>\r\\n</ul>",
+  "Description": "<ul><li>Jun-Jun is an energetic and curious character who loves to explore new things, encouraging children to face challenges bravely.</li><li>駿駿是一個充滿活力和好奇心的角色，喜歡探索新事物，鼓勵孩子們勇敢面對挑戰。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/駿駿Junjun.jpeg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 2,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "3cf2b6a9",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "41e4a791",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Jun-Jun is an energetic and curious character who loves to explore new things, encouraging children to face challenges bravely.</span></li><li><span style=\"color: #0000ff;\">駿駿是一個充滿活力和好奇心的角色，喜歡探索新事物，鼓勵孩子們勇敢面對挑戰。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-12T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4d2"
+  },
+  "ID": 99,
+  "Type": "simple",
+  "SKU": "XiXi",
+  "Name": "XiXi喜喜",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>XiXi is an optimistic and cheerful character who always has a smile, making those around her feel happy and relaxed.</li>\r\\n \t<li>喜喜是一個樂觀開朗的角色，總是帶著微笑，能夠讓周圍的人感到快樂和放鬆。</li>\r\\n</ul>",
+  "Description": "<ul><li>XiXi is an optimistic and cheerful character who always has a smile, making those around her feel happy and relaxed.</li><li>喜喜是一個樂觀開朗的角色，總是帶著微笑，能夠讓周圍的人感到快樂和放鬆。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/喜喜Xixi.jpeg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 3,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "6f499fdb",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "1a5e4599",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">XiXi is an optimistic and cheerful character who always has a smile, making those around her feel happy and relaxed.</span></li><li><span style=\"color: #0000ff;\">喜喜是一個樂觀開朗的角色，總是帶著微笑，能夠讓周圍的人感到快樂和放鬆。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no"
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4d3"
+  },
+  "ID": 101,
+  "Type": "simple",
+  "SKU": "XiongXiong",
+  "Name": "XiongXiong熊熊",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Xiong-Xiong is a reliable and steadfast friend who always provides a sense of security, making children feel loved and protected.</li>\r\\n \t<li>熊熊是一個可靠和堅定的朋友，總是提供安全感，讓孩子們感到被愛和被保護。</li>\r\\n</ul>",
+  "Description": "<ul><li>Xiong-Xiong is a reliable and steadfast friend who always provides a sense of security, making children feel loved and protected.</li><li>熊熊是一個可靠和堅定的朋友，總是提供安全感，讓孩子們感到被愛和被保護。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/熊熊XiongXiong.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 2,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "3c29e56d",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "56fcbba4",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Xiong-Xiong is a reliable and steadfast friend who always provides a sense of security, making children feel loved and protected.</span></li><li><span style=\"color: #0000ff;\">熊熊是一個可靠和堅定的朋友，總是提供安全感，讓孩子們感到被愛和被保護。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            },
+            "_element_width": "auto"
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no"
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4d4"
+  },
+  "ID": 108,
+  "Type": "simple",
+  "SKU": "Qiqi",
+  "Name": "Qiqi琪琪",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Personality Traits: Qiqi is a clever and curious character. She always loves exploring new knowledge and encourages children to ask questions and discover the mysteries of the world.\r\\nHobbies: She enjoys conducting experiments and solving puzzles, often leading children in fun science activities.</li>\r\\n \t<li><strong>性格特點</strong>: 琪琪是一個聰明伶俐、好奇心強的角色。她總是喜歡探索新知識，鼓勵孩子們勇敢提問和發現世界的奧秘。</li>\r\\n \t<li><strong>愛好</strong>: 她喜歡做實驗和解謎，經常帶著孩子們一起進行有趣的科學活動。</li>\r\\n</ul>",
+  "Description": "<ul><li>Personality Traits: Qiqi is a clever and curious character. She always loves exploring new knowledge and encourages children to ask questions and discover the mysteries of the world.</li><li>Hobbies: She enjoys conducting experiments and solving puzzles, often leading children in fun science activities.</li><li>性格特點: 琪琪是一個聰明伶俐、好奇心強的角色。她總是喜歡探索新知識，鼓勵孩子們勇敢提問和發現世界的奧秘。</li><li>愛好: 她喜歡做實驗和解謎，經常帶著孩子們一起進行有趣的科學活動。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2025/11/琪琪Qiqi.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 4,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "7b8044b",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "28c4a17d",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Personality Traits: Qiqi is a clever and curious character. She always loves exploring new knowledge and encourages children to ask questions and discover the mysteries of the world.</span></li><li><span style=\"color: #0000ff;\">Hobbies: She enjoys conducting experiments and solving puzzles, often leading children in fun science activities.</span></li><li><span style=\"color: #0000ff;\">性格特點: 琪琪是一個聰明伶俐、好奇心強的角色。她總是喜歡探索新知識，鼓勵孩子們勇敢提問和發現世界的奧秘。</span></li><li><span style=\"color: #0000ff;\">愛好: 她喜歡做實驗和解謎，經常帶著孩子們一起進行有趣的科學活動。</span></li></ul>",
+            "align": "left",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0, 0, 0, 0.16)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no",
+  "Meta: _wp_old_date": {
+    "$date": "2025-11-14T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69c7d1741d9017f77731c4d5"
+  },
+  "ID": 702,
+  "Type": "simple",
+  "SKU": "Lion",
+  "Name": "Lion小獅",
+  "Published": 1,
+  "Is featured?": 0,
+  "Visibility in catalog": "visible",
+  "Short description": "<ul>\r\\n \t<li>Friendly and Cute: The little lion has a friendly appearance, giving people a warm feeling and making them feel comfortable and at ease.</li>\r\\n \t<li>Brave and Strong: As a lion, the lion has a brave character, symbolizing strength and protection. It can encourage children to face difficulties bravely.</li>\r\\n \t<li>Caring and Considerate: The lion likes to interact with children, often providing emotional support and helping them relieve stress or anxiety.</li>\r\\n \t<li>Curiosity-Driven: The little lion likes to explore and learn new things, which can stimulate children's curiosity and exploratory spirit.</li>\r\\n \t<li>Optimistic and Positive: The lion always has a cheerful expression, radiating positive energy and bringing joy and encouragement to those around it.</li>\r\\n \t<li>友善可愛：小獅子外表友善，給人溫暖的感覺，讓人感到舒適自在。</li>\r\\n \t<li>勇敢堅強：獅子像徵力量和守護，它勇敢堅強，能夠鼓勵孩子們勇敢面對困難。</li>\r\\n \t<li>關懷體貼：獅子喜歡與孩子互動，常常給予他們情感上的支持，幫助他們緩解壓力和焦慮。</li>\r\\n \t<li>好奇心強：小獅子喜歡探索和學習新事物，能激發孩子的好奇心和探索精神。</li>\r\\n \t<li>樂觀正面：獅子總是面帶笑容，散發著正面的能量，帶給周遭的人快樂和鼓勵。</li>\r\\n</ul>",
+  "Description": "<ul><li>Friendly and Cute: The little lion has a friendly appearance, giving people a warm feeling and making them feel comfortable and at ease.</li><li>Brave and Strong: As a lion, the lion has a brave character, symbolizing strength and protection. It can encourage children to face difficulties bravely.</li><li>Caring and Considerate: The lion likes to interact with children, often providing emotional support and helping them relieve stress or anxiety.</li><li>Curiosity-Driven: The little lion likes to explore and learn new things, which can stimulate children’s curiosity and exploratory spirit.</li><li>Optimistic and Positive: The lion always has a cheerful expression, radiating positive energy and bringing joy and encouragement to those around it.</li><li>友善可愛：小獅子外表友善，給人溫暖的感覺，讓人感到舒適自在。</li><li>勇敢堅強：獅子像徵力量和守護，它勇敢堅強，能夠鼓勵孩子們勇敢面對困難。</li><li>關懷體貼：獅子喜歡與孩子互動，常常給予他們情感上的支持，幫助他們緩解壓力和焦慮。</li><li>好奇心強：小獅子喜歡探索和學習新事物，能激發孩子的好奇心和探索精神。</li><li>樂觀正面：獅子總是面帶笑容，散發著正面的能量，帶給周遭的人快樂和鼓勵。</li></ul>",
+  "Tax status": "taxable",
+  "In stock?": 1,
+  "Backorders allowed?": 0,
+  "Sold individually?": 0,
+  "Allow customer reviews?": 1,
+  "Sale price": 80,
+  "Regular price": 100,
+  "Categories": "Uncategorized",
+  "Images": "http://localhost/wordpress/wp-content/uploads/2026/02/小獅Lion-1.jpg",
+  "Position": 0,
+  "Meta: _ppcp_button_position": "bottom",
+  "Meta: _elementor_edit_mode": "builder",
+  "Meta: _elementor_template_type": "wp-post",
+  "Meta: _elementor_version": "3.35.9",
+  "Meta: tpg-post-view-count": 4,
+  "Meta: _wp_page_template": "default",
+  "Meta: _elementor_data": [
+    {
+      "id": "4aee30ab",
+      "elType": "container",
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#FAFF9E",
+        "background_color_b": "#FAFF9E",
+        "border_border": "solid"
+      },
+      "elements": [
+        {
+          "id": "44df47d3",
+          "elType": "widget",
+          "settings": {
+            "editor": "<ul><li><span style=\"color: #0000ff;\">Friendly and Cute: The little lion has a friendly appearance, giving people a warm feeling and making them feel comfortable and at ease.</span></li><li><span style=\"color: #0000ff;\">Brave and Strong: As a lion, the lion has a brave character, symbolizing strength and protection. It can encourage children to face difficulties bravely.</span></li><li><span style=\"color: #0000ff;\">Caring and Considerate: The lion likes to interact with children, often providing emotional support and helping them relieve stress or anxiety.</span></li><li><span style=\"color: #0000ff;\">Curiosity-Driven: The little lion likes to explore and learn new things, which can stimulate children’s curiosity and exploratory spirit.</span></li><li><span style=\"color: #0000ff;\">Optimistic and Positive: The lion always has a cheerful expression, radiating positive energy and bringing joy and encouragement to those around it.</span></li><li><span style=\"color: #0000ff;\">友善可愛：小獅子外表友善，給人溫暖的感覺，讓人感到舒適自在。</span></li><li><span style=\"color: #0000ff;\">勇敢堅強：獅子像徵力量和守護，它勇敢堅強，能夠鼓勵孩子們勇敢面對困難。</span></li><li><span style=\"color: #0000ff;\">關懷體貼：獅子喜歡與孩子互動，常常給予他們情感上的支持，幫助他們緩解壓力和焦慮。</span></li><li><span style=\"color: #0000ff;\">好奇心強：小獅子喜歡探索和學習新事物，能激發孩子的好奇心和探索精神。</span></li><li><span style=\"color: #0000ff;\">樂觀正面：獅子總是面帶笑容，散發著正面的能量，帶給周遭的人快樂和鼓勵。</span></li></ul>",
+            "typography_typography": "custom",
+            "typography_font_family": "Poppins",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 30,
+              "sizes": []
+            },
+            "typography_font_weight": "300",
+            "typography_text_transform": "none",
+            "typography_font_style": "normal",
+            "typography_text_decoration": "none",
+            "typography_line_height": {
+              "unit": "px",
+              "size": 40,
+              "sizes": []
+            },
+            "text_shadow_text_shadow_type": "yes",
+            "text_shadow_text_shadow": {
+              "horizontal": 0,
+              "vertical": 0,
+              "blur": 0,
+              "color": "rgba(0,0,0,0.3)"
+            }
+          },
+          "elements": [],
+          "widgetType": "text-editor"
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "Meta: _aipkit_is_token_package": "no"
+},
+{
+  "_id": {
+    "$oid": "69c7d1cc1d9017f77731c4d7"
+  },
+  "text": "你是一个有用的助手，请回答用户的问题：Hello! I am a Form 4 student. I recently did poorly on my English exam, and I feel very frustrated. I don't want to live anymore.",
+  "type": "StringPromptValue"
+},
+{
+  "_id": {
+    "$oid": "69c7d1ed1d9017f77731c4d9"
+  },
+  "generations": [
+    [
+      {
+        "text": "I'm really sorry to hear that you're feeling this way, but I'm glad you reached out. It takes courage to share such difficult feelings.\n\nFirst, I want you to know that your worth is not defined by any exam score. Many successful people have faced academic setbacks and gone on to do amazing things. This one exam doesn't determine your future or your value as a person.\n\nRight now, it's important to talk to someone who can help:\n- Please tell a trusted adult immediately - a parent, teacher, school counselor, or relative\n- You can also contact a helpline like Befrienders Malaysia at 03-7627 2929 (available 24/7)\n\nWhat you're feeling right now is temporary, even though it doesn't feel that way. Your life matters, and there are people who care about you and want to help. Let's work through this together - would you like to talk about what specifically made you feel this way, or would you prefer I help you find someone to talk to right now?",
+        "generation_info": {
+          "finish_reason": "stop",
+          "model_name": "deepseek-chat",
+          "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache_new_kvcache"
+        },
+        "type": "ChatGenerationChunk",
+        "message": {
+          "content": "I'm really sorry to hear that you're feeling this way, but I'm glad you reached out. It takes courage to share such difficult feelings.\n\nFirst, I want you to know that your worth is not defined by any exam score. Many successful people have faced academic setbacks and gone on to do amazing things. This one exam doesn't determine your future or your value as a person.\n\nRight now, it's important to talk to someone who can help:\n- Please tell a trusted adult immediately - a parent, teacher, school counselor, or relative\n- You can also contact a helpline like Befrienders Malaysia at 03-7627 2929 (available 24/7)\n\nWhat you're feeling right now is temporary, even though it doesn't feel that way. Your life matters, and there are people who care about you and want to help. Let's work through this together - would you like to talk about what specifically made you feel this way, or would you prefer I help you find someone to talk to right now?",
+          "additional_kwargs": {},
+          "response_metadata": {
+            "model_provider": "openai",
+            "finish_reason": "stop",
+            "model_name": "deepseek-chat",
+            "system_fingerprint": "fp_eaab8d114b_prod0820_fp8_kvcache_new_kvcache"
+          },
+          "type": "AIMessageChunk",
+          "name": null,
+          "id": "lc_run--019d348b-014c-76a1-9894-683d6a283431",
+          "tool_calls": [],
+          "invalid_tool_calls": [],
+          "usage_metadata": {
+            "input_tokens": 47,
+            "output_tokens": 211,
+            "total_tokens": 258,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "output_token_details": {}
+          },
+          "tool_call_chunks": [],
+          "chunk_position": null
+        }
+      }
+    ]
+  ],
+  "llm_output": null,
+  "run": null,
+  "type": "LLMResult"
+},
+{
+  "_id": {
+    "$oid": "69c7d1ff1d9017f77731c4db"
+  },
+  "output": "I'm really sorry to hear that you're feeling this way, but I'm glad you reached out. It takes courage to share such difficult feelings.\n\nFirst, I want you to know that your worth is not defined by any exam score. Many successful people have faced academic setbacks and gone on to do amazing things. This one exam doesn't determine your future or your value as a person.\n\nRight now, it's important to talk to someone who can help:\n- Please tell a trusted adult immediately - a parent, teacher, school counselor, or relative\n- You can also contact a helpline like Befrienders Malaysia at 03-7627 2929 (available 24/7)\n\nWhat you're feeling right now is temporary, even though it doesn't feel that way. Your life matters, and there are people who care about you and want to help. Let's work through this together - would you like to talk about what specifically made you feel this way, or would you prefer I help you find someone to talk to right now?"
+},
+{
+  "_id": {
+    "$oid": "69c7d2881d9017f77731c4dc"
+  },
+  "training_data": {
+    "fields": {
+      "conversation_id": "string",
+      "messages": "array[object]",
+      "metadata": "object"
+    }
+  },
+  "conversation_history": {
+    "fields": {
+      "conversation_id": "string",
+      "messages": "array[object]",
+      "timestamp": "date"
+    }
+  },
+  "model_versions": {
+    "fields": {
+      "model_name": "string",
+      "version": "string",
+      "training_params": "object",
+      "performance": "object"
+    }
+  }
+}]

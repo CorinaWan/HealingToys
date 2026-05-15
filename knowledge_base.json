@@ -1,0 +1,508 @@
+{
+  "dolls": [
+    {
+      "name": "歡歡 (Huanhuan)",
+      "features_zh": [
+        "溫柔、平靜",
+        "歡歡是一個圓潤的玩偶，總是帶著柔和的微笑，讓人感到安心。她擁有安撫他人的能力，適合在壓力大的時候陪伴學生，提供情感上的支持。"
+      ],
+      "features_en": [
+        "Gentle, Calm",
+        "Huanhuan is a round, doll-like figure with a gentle smile that brings a sense of security. She possesses the ability to soothe others and is well-suited to accompany students during stressful times, providing emotional support."
+      ]
+    },
+    {
+      "name": "安安 (Anan)",
+      "features_zh": [
+        "友善、積極",
+        "安安擁有大大的友善眼睛和亮麗的顏色，總是能帶來正能量。她喜歡鼓勵他人，幫助學生找到自信，讓他們在困難中保持積極的心態。"
+      ],
+      "features_en": [
+        "Friendly, Positive",
+        "An'an has big, friendly eyes and bright colors that always bring positive energy. She enjoys encouraging others, helping students build confidence, and maintaining a positive attitude in the face of difficulties."
+      ]
+    },
+    {
+      "name": "欣欣 (Xinxin)",
+      "features_zh": [
+        "理智、善解人意",
+        "欣欣的表情充滿思考，穿著舒適的毛衣，象徵著智慧與理解。她擅長傾聽，能夠理解學生的煩惱，並提供實用的建議。"
+      ],
+      "features_en": [
+        "Rational, Empathetic",
+        "Xinxin's expression is thoughtful, and her comfortable sweater symbolizes wisdom and understanding. She is a good listener, able to understand students' troubles, and offer practical advice."
+      ]
+    },
+    {
+      "name": "盈盈 (Yingying)",
+      "features_zh": [
+        "活潑、有趣",
+        "盈盈是一個充滿快樂的玩偶，她的設計充滿趣味，總是能帶來笑聲。她喜歡玩遊戲和做有趣的活動，幫助學生放鬆心情，享受生活中的小樂趣。"
+      ],
+      "features_en": [
+        "Lively, Fun",
+        "Yingying is a cheerful doll whose designs are full of fun and always bring laughter. She enjoys playing games and doing fun activities, helping students relax and enjoy the little pleasures in life."
+      ]
+    },
+    {
+      "name": "樂樂 (Lele)",
+      "features_zh": [
+        "充滿活力和樂觀。她總是帶著微笑，喜歡講笑話和分享快樂的故事，能夠讓人感到輕鬆愉快。",
+        "喜歡唱歌和跳舞，常常邀請孩子們一起參加有趣的活動。"
+      ],
+      "features_en": [
+        "Lele is a vibrant and optimistic character. She always has a smile on her face, loves telling jokes and sharing happy stories, and can make people feel relaxed and cheerful.",
+        "She enjoys singing and dancing and often invites children to participate in fun activities."
+      ]
+    },
+    {
+      "name": "詩詩 (Shishi)",
+      "features_zh": [
+        "文靜而敏感，擅長傾聽和理解他人的感受。她總是能夠用溫暖的話語安慰朋友，讓人感到安心。",
+        "喜歡閱讀和寫詩，經常與孩子們分享美麗的故事和詩篇。"
+      ],
+      "features_en": [
+        "Shishi is a quiet and sensitive character, skilled at listening and understanding others' feelings. She always comforts her friends with warm words, making them feel at ease.",
+        "She enjoys reading and writing poetry, often sharing beautiful stories and poems with children."
+      ]
+    },
+    {
+      "name": "琪琪 (Qiqi)",
+      "features_zh": [
+        "聰明伶俐、好奇心強。她總是喜歡探索新知識，鼓勵孩子們勇敢提問和發現世界的奧秘。",
+        "喜歡做實驗和解謎，經常帶著孩子們一起進行有趣的科學活動。"
+      ],
+      "features_en": [
+        "Qiqi is a clever and curious character. She always loves exploring new knowledge and encourages children to ask questions and discover the mysteries of the world.",
+        "She enjoys conducting experiments and solving puzzles, often leading children in fun science activities."
+      ]
+    },
+    {
+      "name": "晴晴 (Qingqing)",
+      "features_zh": [
+        "充滿想像力和創造力，喜歡畫畫和手工藝。她鼓勵孩子們表達自己的想法和情感。",
+        "喜歡創作和設計，經常與孩子們一起做手工藝品，讓每個人都能展現自己的藝術才華。"
+      ],
+      "features_en": [
+        "Qingqing is an imaginative and creative character who loves drawing and crafts. She encourages children to express their thoughts and feelings.",
+        "She enjoys creating and designing, often making crafts with children, allowing everyone to showcase their artistic talents."
+      ]
+    },
+    {
+      "name": "米米 (Mimi)",
+      "features_zh": "米米是一個溫柔而關懷的角色，她總是願意傾聽孩子的心聲，給予安慰和支持。",
+      "features_en": "Mimi is a gentle and caring character who is always willing to listen to children's feelings, offering comfort and support."
+    },
+    {
+      "name": "駿駿 (Jun-Jun)",
+      "features_zh": "駿駿是一個充滿活力和好奇心的角色，喜歡探索新事物，鼓勵孩子們勇敢面對挑戰。",
+      "features_en": "Jun-Jun is an energetic and curious character who loves to explore new things, encouraging children to face challenges bravely."
+    },
+    {
+      "name": "喜喜 (Xi-Xi)",
+      "features_zh": "喜喜是一個樂觀開朗的角色，總是帶著微笑，能夠讓周圍的人感到快樂和放鬆。",
+      "features_en": "Xi-Xi is an optimistic and cheerful character who always has a smile, making those around her feel happy and relaxed."
+    },
+    {
+      "name": "熊熊 (Xiong-Xiong)",
+      "features_zh": "熊熊是一個可靠和堅定的朋友，總是提供安全感，讓孩子們感到被愛和被保護。",
+      "features_en": "Xiong-Xiong is a reliable and steadfast friend who always provides a sense of security, making children feel loved and protected."
+    },
+    {
+      "name": "小獅 (Lion)",
+      "features_zh": [
+        "友善可愛：小獅子外表友善，給人溫暖的感覺，讓人感到舒適自在。",
+        "勇敢堅強：獅子像徵力量和守護，它勇敢堅強，能夠鼓勵孩子們勇敢面對困難。",
+        "關懷體貼：獅子喜歡與孩子互動，常常給予他們情感上的支持，幫助他們緩解壓力和焦慮。",
+        "好奇心強：小獅子喜歡探索和學習新事物，能激發孩子的好奇心和探索精神。",
+        "樂觀正面：獅子總是面帶笑容，散發著正面的能量，帶給周遭的人快樂和鼓勵。"
+      ],
+      "features_en": [
+        "Friendly and Cute: The little lion has a friendly appearance, giving people a warm feeling and making them feel comfortable and at ease.",
+        "Brave and Strong: As a lion, the lion has a brave character, symbolizing strength and protection. It can encourage children to face difficulties bravely.",
+        "Caring and Considerate: The lion likes to interact with children, often providing emotional support and helping them relieve stress or anxiety.",
+        "Curiosity-Driven: The little lion likes to explore and learn new things, which can stimulate children's curiosity and exploratory spirit.",
+        "Optimistic and Positive: The lion always has a cheerful expression, radiating positive energy, bringing joy and encouragement to those around it."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "product_id": 74,
+      "product_type": "simple",
+      "sku": "Huanhuan",
+      "name": "Huanhuan歡歡",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Gentle, Calm \\n Description: Huanhuan is a round, doll-like figure with a gentle smile that brings a sense of security. She possesses the ability to soothe others and is well-suited to accompany students during stressful times, providing emotional support. \\n 性格特徵 : 溫柔、平靜 \\n 描述 : 歡歉是一個圓潤的玩偶，總是帶著柔和的微笑，讓人感到安心。她擁有安撫他人的能力，適合在壓力大的時候陪伴學生，提供情感上的支持。 \\n",
+      "description": "Personality Traits: Gentle, Calm Description: Huanhuan is a round, doll-like figure with a gentle smile that brings a sense of security. She possesses the ability to soothe others and is well-suited to accompany students during stressful times, providing emotional support. 性格特徵: 溫柔、平靜 描述: 歡歉是一個圓潤的玩偶，總是帶著柔和的微笑，讓人感到安心。她擁有安撫他人的能力，適合在壓力大的時候陪伴學生，提供情感上的支持。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 75,
+      "product_type": "simple",
+      "sku": "Xinxin",
+      "name": "Xinxin欣欣",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Rational, Empathetic \\n Description: Xin Xin's expression is thoughtful, and her comfortable sweater symbolizes wisdom and understanding. She is a good listener, able to understand students' troubles, and offer practical advice. \\n 性格特徵 : 理智、善解人意 \\n 描述 : 欣欣的表情充滿思考，穿著舒適的毛衣，象徵著智慧與理解。她擅長傾聽，能夠理解學生的煩惱，並提供實用的建議。 \\n",
+      "description": "Personality Traits: Rational, Empathetic Description: Xin Xin's expression is thoughtful, and her comfortable sweater symbolizes wisdom and understanding. She is a good listener, able to understand students' troubles, and offer practical advice. 性格特徵: 理智、善解人意 描述: 欣欣的表情充滿思考，穿著舒適的毛衣，象徵著智慧與理解。她擅長傾聽，能夠理解學生的煩惱，並提供實用的建議。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 80,
+      "product_type": "simple",
+      "sku": "An'an",
+      "name": "An'an安安",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Friendly, Positive \\n Description: An'an has big, friendly eyes and bright eyes that always bring positive energy. She enjoys encouraging others, helping students build confidence, and maintaining a positive attitude in the face of difficulties. \\n 性格特徵 : 友善、積極 \\n 描述 : 安安擁有大大的友善眼睛和亮麗的顏色，總是能帶來正能量。她喜歡鼓勵他人，幫助學生找到自信，讓他們在困難中保持積極的心態。 \\n",
+      "description": "Personality Traits: Friendly, Positive Description: An'an has big, friendly eyes and bright eyes that always bring positive energy. She enjoys encouraging others, helping students build confidence, and maintaining a positive attitude in the face of difficulties. 性格特徵: 友善、積極 描述: 安安擁有大大的友善眼睛和亮麗的顏色，總是能帶來正能量。她喜歡鼓勵他人，幫助學生找到自信，讓他們在困難中保持積極的心態。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 83,
+      "product_type": "simple",
+      "sku": "Yingying",
+      "name": "Yingying盈盈",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Lively, Fun \\n Description: Yingying is a cheerful doll whose designs are full of fun and always bring laughter. She enjoys playing games and doing fun activities, helping students relax and enjoy the little pleasures in life. \\n 性格特徵 : 活潑、有趣 \\n 描述 : 盈盈是一個充滿快樂的玩偶，她的設計充滿趣味，總是能帶來笑聲。她喜歡玩遊戲和做有趣的活動，幫助學生放鬆心情，享受生活中的小樂趣。 \\n",
+      "description": "Personality Traits: Lively, Fun Description: Yingying is a cheerful doll whose designs are full of fun and always bring laughter. She enjoys playing games and doing fun activities, helping students relax and enjoy the little pleasures in life. 性格特徵: 活潑、有趣 描述: 盈盈是一個充滿快樂的玩偶，她的設計充滿趣味，總是能帶來笑聲。她喜歡玩遊戲和做有趣的活動，幫助學生放鬆心情，享受生活中的小樂趣。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 85,
+      "product_type": "simple",
+      "sku": "Lele",
+      "name": "Lele樂樂",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Lele is a vibrant and optimistic character. She always has a smile on her face, loves telling jokes and sharing happy stories, and can make people feel relaxed and cheerful. \\n Hobbies: She enjoys singing and dancing and often invites children to participate in fun activities. \\n 性格特點 : 樂樂是一個充滿活力和樂觀的角色。她總是帶著微笑，喜歡講笑話和分享快樂的故事，能夠讓人感到輕鬆愉快。 \\n 愛好 : 她喜歡唱歌和跳舞，常常邀請孩子們一起參加有趣的活動。 \\n",
+      "description": "Personality Traits: Lele is a vibrant and optimistic character. She always has a smile on her face, loves telling jokes and sharing happy stories, and can make people feel relaxed and cheerful. Hobbies: She enjoys singing and dancing and often invites children to participate in fun activities. 性格特點: 樂樂是一個充滿活力和樂觀的角色。她總是帶著微笑，喜歡講笑話和分享快樂的故事，能夠讓人感到輕鬆愉快。 愛好: 她喜歡唱歌和跳舞，常常邀請孩子們一起參加有趣的活動。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 87,
+      "product_type": "simple",
+      "sku": "Shishi",
+      "name": "Shishi詩詩",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Shishi is a quiet and sensitive character, skilled at listening and understanding others' feelings. She always comforts her friends with warm words, making them feel at ease. \\nHobbies: She enjoys reading and writing poetry, often sharing beautiful stories and poems with children. \\n 性格特點 : 詩詩是一個文靜而敏感的角色，擅長傾聽和理解他人的感受。她總是能夠用溫暖的話語安慰朋友，讓人感到安心。 \\n 愛好 : 她喜歡閱讀和寫詩，經常與孩子們分享美麗的故事和詩篇。 \\n",
+      "description": "Personality Traits: Shishi is a quiet and sensitive character, skilled at listening and understanding others' feelings. She always comforts her friends with warm words, making them feel at ease. Hobbies: She enjoys reading and writing poetry, often sharing beautiful stories and poems with children. 性格特點: 詩詩是一個文靜而敏感的角色，擅長傾聽和理解他人的感受。她總是能夠用溫暖的話語安慰朋友，讓人感到安心。 愛好: 她喜歡閱讀和寫詩，經常與孩子們分享美麗的故事和詩篇。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 92,
+      "product_type": "simple, downloadable, virtual",
+      "sku": "Qingqing",
+      "name": "Qingqing晴晴",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Qingqing is an imaginative and creative character who loves drawing and crafts. She encourages children to express their thoughts and feelings. \\n Hobbies: She enjoys creating and designing, often making crafts with children, allowing everyone to showcase their artistic talents. \\n 性格特點 : 晴晴是一個充滿想像力和創造力的角色，喜歡畫畫和手工藝。她鼓勵孩子們表達自己的想法和情感。 \\n 愛好 : 她喜歡創作和設計，經常與孩子們一起做手工藝品，讓每個人都能展現自己的藝術才華。 \\n",
+      "description": "Personality Traits: Qingqing is an imaginative and creative character who loves drawing and crafts. She encourages children to express their thoughts and feelings. Hobbies: She enjoys creating and designing, often making crafts with children, allowing everyone to showcase their artistic talents. 性格特點: 晴晴是一個充滿想像力和創造力的角色，喜歡畫畫和手工藝。她鼓勵孩子們表達自己的想法和情感。 愛好: 她喜歡創作和設計，經常與孩子們一起做手工藝品，讓每個人都能展現自己的藝術才華。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 94,
+      "product_type": "simple",
+      "sku": "Mimi",
+      "name": "Mimi米米",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Mimi is a gentle and caring character who is always willing to listen to children's feelings, offering comfort and support. \\n 米米是一個溫柔而關懷的角色，她總是願意傾聽孩子的心聲，給予安慰和支持。 \\n",
+      "description": "Mimi is a gentle and caring character who is always willing to listen to children's feelings, offering comfort and support. 米米是一個溫柔而關懷的角色，她總是願意傾聽孩子的心聲，給予安慰和支持。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 96,
+      "product_type": "simple",
+      "sku": "JunJun",
+      "name": "JunJun駿駿",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Jun-Jun is an energetic and curious character who loves to explore new things, encouraging children to face challenges bravely. \\n 駿駿是一個充滿活力和好奇心的角色，喜歡探索新事物，鼓勵孩子們勇敢面對挑戰。 \\n",
+      "description": "Jun-Jun is an energetic and curious character who loves to explore new things, encouraging children to face challenges bravely. 駿駿是一個充滿活力和好奇心的角色，喜歡探索新事物，鼓勵孩子們勇敢面對挑戰。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 99,
+      "product_type": "simple",
+      "sku": "XiXi",
+      "name": "XiXi喜喜",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n XiXi is an optimistic and cheerful character who always has a smile, making those around her feel happy and relaxed. \\n 喜喜是一個樂觀開朗的角色，總是帶著微笑，能夠讓周圍的人感到快樂和放鬆。 \\n",
+      "description": "XiXi is an optimistic and cheerful character who always has a smile, making those around her feel happy and relaxed. 喜喜是一個樂觀開朗的角色，總是帶著微笑，能夠讓周圍的人感到快樂和放鬆。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 101,
+      "product_type": "simple",
+      "sku": "XiongXiong",
+      "name": "XiongXiong熊熊",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Xiong-Xiong is a reliable and steadfast friend who always provides a sense of security, making children feel loved and protected. \\n 熊熊是一個可靠和堅定的朋友，總是提供安全感，讓孩子們感到被愛和被保護。 \\n",
+      "description": "Xiong-Xiong is a reliable and steadfast friend who always provides a sense of security, making children feel loved and protected. 熊熊是一個可靠和堅定的朋友，總是提供安全感，讓孩子們感到被愛和被保護。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 108,
+      "product_type": "simple",
+      "sku": "Qiqi",
+      "name": "Qiqi琪琪",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Personality Traits: Qiqi is a clever and curious character. She always loves exploring new knowledge and encourages children to ask questions and discover the mysteries of the world. \\nHobbies: She enjoys conducting experiments and solving puzzles, often leading children in fun science activities. \\n 性格特點 : 琪琪是一個聰明伶俐、好奇心強的角色。她總是喜歡探索新知識，鼓勵孩子們勇敢提問和發現世界的奧秘。 \\n 愛好 : 她喜歡做實驗和解謎，經常帶著孩子們一起進行有趣的科學活動。 \\n",
+      "description": "Personality Traits: Qiqi is a clever and curious character. She always loves exploring new knowledge and encourages children to ask questions and discover the mysteries of the world. Hobbies: She enjoys conducting experiments and solving puzzles, often leading children in fun science activities. 性格特點: 琪琪是一個聰明伶俐、好奇心強的角色。她總是喜歡探索新知識，鼓勵孩子們勇敢提問和發現世界的奧秘。 愛好: 她喜歡做實驗和解謎，經常帶著孩子們一起進行有趣的科學活動。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    },
+    {
+      "product_id": 702,
+      "product_type": "simple",
+      "sku": "Lion",
+      "name": "Lion小獅",
+      "published_status": 1,
+      "is_featured": 0,
+      "visibility": "visible",
+      "short_description": "\\n Friendly and Cute: The little lion has a friendly appearance, giving people a warm feeling and making them feel comfortable and at ease. \\n Brave and Strong: As a lion, the lion has a brave character, symbolizing strength and protection. It can encourage children to face difficulties bravely. \\n Caring and Considerate: The lion likes to interact with children, often providing emotional support and helping them relieve stress or anxiety. \\n Curiosity-Driven: The little lion likes to explore and learn new things, which can stimulate children's curiosity and exploratory spirit. \\n Optimistic and Positive: The lion always has a cheerful expression, radiating positive energy and bringing joy and encouragement to those around it. \\n 友善可愛：小獅子外表友善，給人溫暖的感覺，讓人感到舒適自在。 \\n 勇敢堅強：獅子像徵力量和守護，它勇敢堅強，能夠鼓勵孩子們勇敢面對困難。 \\n 關懷體貼：獅子喜歡與孩子互動，常常給予他們情感上的支持，幫助他們緩解壓力和焦慮。 \\n 好奇心強：小獅子喜歡探索和學習新事物，能激發孩子的好奇心和探索精神。 \\n 樂觀正面：獅子總是面帶笑容，散發著正面的能量，帶給周遭的人快樂和鼓勵。 \\n",
+      "description": "Friendly and Cute: The little lion has a friendly appearance, giving people a warm feeling and making them feel comfortable and at ease. Brave and Strong: As a lion, the lion has a brave character, symbolizing strength and protection. It can encourage children to face difficulties bravely. Caring and Considerate: The lion likes to interact with children, often providing emotional support and helping them relieve stress or anxiety. Curiosity-Driven: The little lion likes to explore and learn new things, which can stimulate children’s curiosity and exploratory spirit. Optimistic and Positive: The lion always has a cheerful expression, radiating positive energy and bringing joy and encouragement to those around it. 友善可愛：小獅子外表友善，給人溫暖的感覺，讓人感到舒適自在。 勇敢堅強：獅子像徵力量和守護，它勇敢堅強，能夠鼓勵孩子們勇敢面對困難。 關懷體貼：獅子喜歡與孩子互動，常常給予他們情感上的支持，幫助他們緩解壓力和焦慮。 好奇心強：小獅子喜歡探索和學習新事物，能激發孩子的好奇心和探索精神。 樂觀正面：獅子總是面帶笑容，散發著正面的能量，帶給周遭的人快樂和鼓勵。",
+      "regular_price": 100,
+      "sale_price": 80,
+      "in_stock": 1,
+      "stock_quantity": 0,
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [],
+      "brands": "",
+      "weight_kg": "",
+      "dimensions": {
+        "length_cm": "",
+        "width_cm": "",
+        "height_cm": ""
+      },
+      "allow_reviews": 1,
+      "shipping_class": "",
+      "position": 0
+    }
+  ]
+}

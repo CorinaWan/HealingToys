@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "category": "platform_intro",
+    "title": "About Us",
+    "content": "Welcome to the Healing Toys E-Commerce Platform. Since academic pressure is a common issue among students in Hong Kong. In 2023, 32 students passed away due to suicide. From January to May 2025, 15 students have taken their own lives due to academic stress, highlighting the severity of the issue of student suicides. Therefore, the emotional health of students cannot be ignored.\n\nWe are committed to serving children and teenagers, helping them feel warm and happy when they face academic or family pressures by providing lively and cute dolls to ease their emotional distress.\n\nWhen you prepare for your homework, assignments, tests and examinations, you feel a bit nervous, anxious and difficult. You can browse this e-commerce to see these adorable, cheerful and helpful therapy dolls. They are both lively, friendly, optimistic and empathetic. Their sweet smile is deeply loved by students. These dolls will become your best companions. They are always by your side when you are under pressure. You can pay in cash to buy your favourite doll.\n\nOn the other hand, students can read some valuable articles, including a touching story of a student struggling with emotional issues who ultimately achieved excellent results in his exams. It can motivate and encourage other students to study hard.\n\nIn addition, if you feel upset, anxious, depressed and worried about your studies, you can have a chat with the AI counsellor, which can provide tips about stress management and best study plan to comfort your emotions and prepare for your quizzes, assignments and examinations."
+  },
+  {
+    "id": 2,
+    "category": "background",
+    "title": "Background",
+    "content_en": "Academic pressure is a common issue among students in Hong Kong. From January to May 2025, 15 students have taken their own lives due to academic stress, highlighting the severity of the issue of student suicides. Therefore, the emotional health of students cannot be ignored.",
+    "content_zh": "香港學童普遍存在學業壓力問題，在2025年1月至5月期間，已經有15位學生因此而輕生，反映學童自殺問題的嚴重性。因此，學童的情緒健康問題不能被忽視。",
+    "mission_en": "We are committed to serving children and teenagers, helping them feel warm and happy when they face academic or family pressures by providing lively and cute dolls to ease their emotional distress.",
+    "mission_zh": "我們一直致力為小朋友及青少年服務，當他們遇到學業或家庭壓力時，購買活潑可愛的玩偶可以讓他們感到溫暖及快樂，紓緩情緒不安。"
+  },
+  {
+    "id": 3,
+    "category": "stress_relief_tips",
+    "title": "Stress Relief Tips",
+    "tips": [
+      {
+        "name": "Deep Breathing",
+        "name_zh": "深呼吸練習",
+        "description": "When you are under pressure, try to breathe deeply. First, inhale for 5 seconds, hold your breath for 5 seconds, and exhale for 7 seconds.",
+        "description_zh": "當您感到壓力時，嘗試深呼吸。首先吸氣5秒，屏住呼吸5秒，然後呼氣7秒。"
+      },
+      {
+        "name": "Management of Academic Pressure",
+        "name_zh": "學業壓力管理",
+        "description": "Break down large procedures into small procedures, set a clear goal and manage your time effectively.",
+        "description_zh": "將大型任務分解為小任務，設定清晰的目標並有效管理時間。"
+      },
+      {
+        "name": "Communication Skills with Family",
+        "name_zh": "家庭溝通技巧",
+        "description": "Share your learning, related difficulty and feelings.",
+        "description_zh": "分享您的學習情況、相關困難和感受。"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "ai_chatroom",
+    "title": "AI Chatroom",
+    "description": "These AI Mental Health Counsellors are your best listeners and companions. You can share your emotions or difficulties from your studies or family. AI Counsellors will provide mental health support and tips about stress and time management to comfort your emotions and relax your mood.",
+    "description_zh": "這些AI心理健康輔導員是您最好的聆聽者和夥伴。您可以分享來自學業或家庭的情緒或困難。AI輔導員將提供心理健康支援以及有關壓力和時間管理的提示，以安撫您的情緒並放鬆心情。"
+  }
+]
