@@ -36,13 +36,13 @@ The repository includes multiple knowledge and training data files:
 Install required Python packages in your virtual environment:
 
 ```bash
-python3 -m pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 > If there is no `requirements.txt`, install the main runtime packages manually:
 >
 > ```bash
-> python3 -m pip install fastapi uvicorn transformers sentence-transformers chromadb torch peft zhconv pymongo openai
+> python -m pip install fastapi uvicorn transformers sentence-transformers chromadb torch peft zhconv pymongo openai
 > ```
 
 ### Node Dependency
@@ -58,7 +58,7 @@ npm install
 Start the FastAPI service:
 
 ```bash
-python3 chat_api.py
+python chat_api.py
 ```
 
 Then call the API at:
@@ -75,7 +75,7 @@ The service loads a fine-tuned local model if available, otherwise falls back to
 Generate the ChromaDB persistence store from local JSON content:
 
 ```bash
-python3 build_rag_kb.py
+python build_rag_kb.py
 ```
 
 This creates or refreshes the `./chroma_db` vector database used by retrieval.
@@ -85,7 +85,7 @@ This creates or refreshes the `./chroma_db` vector database used by retrieval.
 Train the model using the fine-tuning pipeline:
 
 ```bash
-python3 train_model.py
+python train_model.py
 ```
 
 This script:
@@ -100,7 +100,7 @@ This script:
 Run standalone inference and RAG prompt generation:
 
 ```bash
-python3 chatbot_inference.py
+python chatbot_inference.py
 ```
 
 The script loads the optimized model, retrieves relevant documents from ChromaDB, constructs a RAG prompt, and generates sample responses.
