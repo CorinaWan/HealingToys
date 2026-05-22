@@ -8,52 +8,200 @@ tags:
 - transformers
 ---
 
-# Fine-Tuned DeepSeek LoRA Adapter
+# Model Card for Model ID
 
-This directory contains the fine-tuned LoRA adapter artifacts produced by the repository's training workflow. It can be used to attach a lightweight adapter to the base Qwen model for inference.
+<!-- Provide a quick summary of what the model is/does. -->
 
-## Files Included
 
-- `adapter_config.json` — LoRA configuration containing adapter hyperparameters and target modules.
-- `adapter_model.safetensors` — Saved LoRA adapter weights in safe tensor format.
-- `tokenizer.json` — Tokenizer vocabulary and encoding metadata.
-- `tokenizer_config.json` — Tokenizer configuration settings.
-- `chat_template.jinja` — Chat prompt template used to format model input for generation.
 
-## Purpose
+## Model Details
 
-This directory holds the adapter-only model artifacts, not the full base model. Use it when you want to:
+### Model Description
 
-- perform inference with the fine-tuned adapter attached to the base model
-- deploy a lighter-weight fine-tuned variant
-- inspect adapter configuration and prompt template usage
+<!-- Provide a longer summary of what this model is. -->
 
-## How to Use
 
-Load the base model and merge this adapter using `transformers` and `peft`:
 
-```python
-from transformers import AutoModelForCausalLM, AutoTokenizer
-from peft import PeftModel
+- **Developed by:** [More Information Needed]
+- **Funded by [optional]:** [More Information Needed]
+- **Shared by [optional]:** [More Information Needed]
+- **Model type:** [More Information Needed]
+- **Language(s) (NLP):** [More Information Needed]
+- **License:** [More Information Needed]
+- **Finetuned from model [optional]:** [More Information Needed]
 
-base_model = "Qwen/Qwen2.5-1.5B-Instruct"
+### Model Sources [optional]
 
-tokenizer = AutoTokenizer.from_pretrained("./fine_tuned_deepseek_lora")
-model = AutoModelForCausalLM.from_pretrained(base_model, trust_remote_code=True)
-model = PeftModel.from_pretrained(model, "./fine_tuned_deepseek_lora")
+<!-- Provide the basic links for the model. -->
 
-# Use the prompt template if needed
-with open("./fine_tuned_deepseek_lora/chat_template.jinja", "r", encoding="utf-8") as f:
-    template = f.read()
-```
+- **Repository:** [More Information Needed]
+- **Paper [optional]:** [More Information Needed]
+- **Demo [optional]:** [More Information Needed]
 
-## Notes
+## Uses
 
-- `adapter_model.safetensors` only contains the LoRA adapter weights and requires the original base model for full inference.
-- `tokenizer.json` and `tokenizer_config.json` are required for consistent text encoding and decoding.
-- `chat_template.jinja` is included to help format prompts for the fine-tuned chatbot behavior.
-- If you need a complete model checkpoint including optimizer state and training progress, see `results_lora/checkpoint-99`.
+<!-- Address questions around how the model is intended to be used, including the foreseeable users of the model and those affected by the model. -->
 
-## License
+### Direct Use
 
-See the repository-level `LICENSE` file for licensing details.
+<!-- This section is for the model use without fine-tuning or plugging into a larger ecosystem/app. -->
+
+[More Information Needed]
+
+### Downstream Use [optional]
+
+<!-- This section is for the model use when fine-tuned for a task, or when plugged into a larger ecosystem/app -->
+
+[More Information Needed]
+
+### Out-of-Scope Use
+
+<!-- This section addresses misuse, malicious use, and uses that the model will not work well for. -->
+
+[More Information Needed]
+
+## Bias, Risks, and Limitations
+
+<!-- This section is meant to convey both technical and sociotechnical limitations. -->
+
+[More Information Needed]
+
+### Recommendations
+
+<!-- This section is meant to convey recommendations with respect to the bias, risk, and technical limitations. -->
+
+Users (both direct and downstream) should be made aware of the risks, biases and limitations of the model. More information needed for further recommendations.
+
+## How to Get Started with the Model
+
+Use the code below to get started with the model.
+
+[More Information Needed]
+
+## Training Details
+
+### Training Data
+
+<!-- This should link to a Dataset Card, perhaps with a short stub of information on what the training data is all about as well as documentation related to data pre-processing or additional filtering. -->
+
+[More Information Needed]
+
+### Training Procedure
+
+<!-- This relates heavily to the Technical Specifications. Content here should link to that section when it is relevant to the training procedure. -->
+
+#### Preprocessing [optional]
+
+[More Information Needed]
+
+
+#### Training Hyperparameters
+
+- **Training regime:** [More Information Needed] <!--fp32, fp16 mixed precision, bf16 mixed precision, bf16 non-mixed precision, fp16 non-mixed precision, fp8 mixed precision -->
+
+#### Speeds, Sizes, Times [optional]
+
+<!-- This section provides information about throughput, start/end time, checkpoint size if relevant, etc. -->
+
+[More Information Needed]
+
+## Evaluation
+
+<!-- This section describes the evaluation protocols and provides the results. -->
+
+### Testing Data, Factors & Metrics
+
+#### Testing Data
+
+<!-- This should link to a Dataset Card if possible. -->
+
+[More Information Needed]
+
+#### Factors
+
+<!-- These are the things the evaluation is disaggregating by, e.g., subpopulations or domains. -->
+
+[More Information Needed]
+
+#### Metrics
+
+<!-- These are the evaluation metrics being used, ideally with a description of why. -->
+
+[More Information Needed]
+
+### Results
+
+[More Information Needed]
+
+#### Summary
+
+
+
+## Model Examination [optional]
+
+<!-- Relevant interpretability work for the model goes here -->
+
+[More Information Needed]
+
+## Environmental Impact
+
+<!-- Total emissions (in grams of CO2eq) and additional considerations, such as electricity usage, go here. Edit the suggested text below accordingly -->
+
+Carbon emissions can be estimated using the [Machine Learning Impact calculator](https://mlco2.github.io/impact#compute) presented in [Lacoste et al. (2019)](https://arxiv.org/abs/1910.09700).
+
+- **Hardware Type:** [More Information Needed]
+- **Hours used:** [More Information Needed]
+- **Cloud Provider:** [More Information Needed]
+- **Compute Region:** [More Information Needed]
+- **Carbon Emitted:** [More Information Needed]
+
+## Technical Specifications [optional]
+
+### Model Architecture and Objective
+
+[More Information Needed]
+
+### Compute Infrastructure
+
+[More Information Needed]
+
+#### Hardware
+
+[More Information Needed]
+
+#### Software
+
+[More Information Needed]
+
+## Citation [optional]
+
+<!-- If there is a paper or blog post introducing the model, the APA and Bibtex information for that should go in this section. -->
+
+**BibTeX:**
+
+[More Information Needed]
+
+**APA:**
+
+[More Information Needed]
+
+## Glossary [optional]
+
+<!-- If relevant, include terms and calculations in this section that can help readers understand the model or model card. -->
+
+[More Information Needed]
+
+## More Information [optional]
+
+[More Information Needed]
+
+## Model Card Authors [optional]
+
+[More Information Needed]
+
+## Model Card Contact
+
+[More Information Needed]
+### Framework versions
+
+- PEFT 0.19.1
