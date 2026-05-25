@@ -58,7 +58,6 @@ modal_name = st.sidebar.selectbox(
     "Select AI Model",
     [
         "deepseek-r1:1.5b", 
-        "llama3:8b-instruct-q4_K_M", 
     ]
 )
 
