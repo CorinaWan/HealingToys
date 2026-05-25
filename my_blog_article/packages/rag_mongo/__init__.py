@@ -1,0 +1,1 @@
+from .ingest import chain as rag_mongo_chain
